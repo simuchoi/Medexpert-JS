@@ -3,3 +3,104 @@
     padding: 0px;
     margin: 0px;
 }
+
+html {
+    display: flex;
+    justify-content: center;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 2000px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    background-color: #fff;
+    height: 135px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ededed;
+    width: 100%;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    gap: 34px;
+    margin: 0px 40px 0px 40px;
+}
+
+.--secondary-list {
+   gap: 50px; 
+}
+
+.link {
+    list-style-type: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+}
+
+.nav-icon {
+    position: relative;
+    height: 15px;
+    margin-right: 10px;
+    top: 2px;
+}
+
+.nav-service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: #00000020 0px 0px 5px;
+}
+
+.service-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.service-logo {
+    height: 55px;
+    margin-right: 6px;
+}
+
+.service-name {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #ca474c;
+}
+
+.--secondary-service-name {
+    color: #83b37d;
+}
+
+.service-profile-link {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 40px;
+}
