@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg height="8.4666mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" viewBox="0 0 846.66 846.66" width="8.4666mm" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        .fil0 {fill:#808080;fill-rule:nonzero}
+      ]]>
+    </style>
+  </defs>
+  <g id="Layer_x0020_1">
+    <path class="fil0" d="M10.91 59.09c0,-27.14 41.26,-27.14 41.26,0l0 707.57 102.53 0 0 -391.01c0,-11.39 9.23,-20.63 20.62,-20.63l102.05 0c11.39,0 20.62,9.24 20.62,20.63l0 391.01 53.83 0 0 -517.41c0,-11.39 9.24,-20.63 20.63,-20.63l102.04 0c11.39,0 20.63,9.24 20.63,20.63l0 517.41 53.83 0 0 -272.73c0,-11.4 9.24,-20.63 20.63,-20.63l102.04 0c11.39,0 20.63,9.23 20.63,20.63l0 272.73 123.15 0c27.14,0 27.14,41.26 0,41.26 -261.29,0 -522.57,0 -783.86,0 -11.39,0 -20.63,-9.24 -20.63,-20.63l0 -728.2zm579.3 707.57l60.78 0 0 -252.11 -60.78 0 0 252.11zm-197.13 0l60.78 0 0 -496.78 -60.78 0 0 496.78zm-197.13 0l60.79 0 0 -370.38 -60.79 0 0 370.38z"/>
+  </g>
+</svg>

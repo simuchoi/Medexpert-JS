@@ -4,6 +4,11 @@
     margin: 0px;
 }
 
+p, a, h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+    color: #000;
+}
+
 html {
     display: flex;
     justify-content: center;
@@ -52,10 +57,7 @@ nav {
 .menu-link {
     text-decoration: none;
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-style: normal;
-    color: #000;
 }
 
 .nav-icon {
@@ -71,6 +73,7 @@ nav {
     justify-content: space-between;
     height: 100%;
     box-shadow: #00000025 0px 0px 20px;
+    background-color: #fff;
 }
 
 .service-wrapper {
@@ -86,9 +89,9 @@ nav {
 
 .service-name {
     font-size: 20px;
-    font-family: "Roboto", sans-serif;
+
     font-weight: 800;
-    font-style: normal;
+
     color: #ca474c;
 }
 
@@ -98,15 +101,14 @@ nav {
 
 .service-profile-link {
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
+
     font-weight: 800;
-    font-style: normal;
     color: #000000;
     text-decoration: none;
     margin-right: 40px;
 }
 
-.main {
+main {
     display: flex;
     height: 400px;
     width: 100%;
@@ -143,11 +145,8 @@ nav {
 .sidebar__title {
     display: flex;
     font-size: 17px;
-    font-family: "Roboto", sans-serif;
     font-weight: 600;
-    font-style: normal;
     color: #ffffff;
-    text-decoration: none;
     margin-left: 33px;
 }
 
@@ -187,11 +186,7 @@ nav {
     margin-left: 15px;
     display: flex;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-style: normal;
-    color: #000000;
-    text-decoration: none;
 }
 
 .human-img {
@@ -231,13 +226,83 @@ nav {
 
 .btn-text {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
     color: #ffffff;
-    text-decoration: none;
 }
 
 .burger-menu-icon {
     height: 13px;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    height: 300px; 
+    background-image: url('./img/welcome-background.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin-right: 40px;
+    margin-bottom: 55px;
+    box-shadow: #00000025 20px;
+}
+
+.welcome-title {
+    display: flex;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 2.6rem;
+    margin-top: 80px;
+    margin-left: 45px;
+}
+
+.welcome-text {
+    margin-top: 33px;
+    margin-left: 45px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.welcome-info__title {
+    margin-top: 33px;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.welcome-info__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 0.45fr);
+    gap: 44px; 
+}
+
+.welcome-info__cell {
+    display: grid;
+    grid-template-columns: 150px 1fr; 
+    align-items: center; 
+    gap: 30px; 
+}
+ 
+.cell-icon-wrraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: #ededed;
+}
+
+.--primary-cell-bg {
+    background-color: #83b37d;
+}
+
+.cell__icon {
+    height: 50px;
+}
+
+.cell__text {
+    width: 290px;
+    font-size: 18px;
+    line-height: 1.4;
 }
