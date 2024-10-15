@@ -18,25 +18,25 @@
         <nav>
             <ul class="navbar__list">
                 <li class="link">
-                    <a class="menu-link" href="#Products">Главная</a>
+                    <a class="menu-link" href="#">Главная</a>
                 </li>
                 <li class="link">
-                    <a class="menu-link" href="#Sellers">Обследование и анализы</a>
+                    <a class="menu-link" href="#">Обследование и анализы</a>
                 </li>
                 <li class="link">
-                    <a class="menu-link" href="#Earphones">Запись онлайн</a>
+                    <a class="menu-link" href="#">Запись онлайн</a>
                 </li>
             </ul>
 
             <ul class="navbar__list --secondary-list">
                 <li class="link">
                     <img class="nav-icon" src="./img/profile-icon.svg" alt="">
-                    <a class="menu-link" href="#Sellers">Личные данные</a>
+                    <a class="menu-link" href="#">Личные данные</a>
                 </li>
 
                 <li class="link">
                     <img class="nav-icon" src="./img/exit-icon.svg" alt="">
-                    <a class="menu-link" href="#Earphones">Выход</a>
+                    <a class="menu-link" href="#">Выход</a>
                 </li>
             </ul>
         </nav>
@@ -55,11 +55,73 @@
 
     <div class="main">
         <div class="main__left">
-            
+            <div class="sidebar_research-filter">
+                <div class="sidebar__title-section">
+                    <h1 class="sidebar__title">Фильтры исследований</h1>
+                </div>
+                <div class="sidebar__wrapper">
+                    <div class="sidebar__wrapper --column">
+                        <button class="sidebar__option-btn">
+                            <img class="option-btn__icon" src="./img/mri-scan-icon.png" alt="mri-scan-icon.png">
+                            <p class="option-btn__name">МРТ</p>
+                        </button>
+                        <button class="sidebar__option-btn">
+                            <img class="option-btn__icon" src="./img/ct-scan-icon.png" alt="ct-scan-icon.png">
+                            <p class="option-btn__name">КТ</p>
+                        </button>
+                        <button class="sidebar__option-btn">
+                            <img class="option-btn__icon" src="./img/xray-scan-icon.png" alt="xray-scan-icon.png">
+                            <p class="option-btn__name">Рентген</p>
+                        </button>
+                        <button class="sidebar__option-btn">
+                            <img class="option-btn__icon" src="./img/ultrasound-icon.png" alt="ultrasound-icon.png">
+                            <p class="option-btn__name">УЗИ</p>
+                        </button>
+                        <button class="sidebar__option-btn">
+                            <img class="option-btn__icon" src="./img/heart-pulse-icon.png" alt="heart-pulse-icon.png">
+                            <p class="option-btn__name">ФД</p>
+                        </button>
+                        <button class="sidebar__option-btn">
+                            <img class="option-btn__icon" src="./img/stethoscope-icon.png" alt="stethoscope-icon.png">
+                            <p class="option-btn__name">Конс</p>
+                        </button>
+                        <button class="sidebar__option-btn">
+                            <img class="option-btn__icon" src="./img/laboratory-icon.png" alt="laboratory-icon.png">
+                            <p class="option-btn__name">Анализы</p>
+                        </button>
+                    </div>
+
+                    <div class="sidebar__wrapper">
+                        <img class="human-img" src="./img/human-contour.png" alt="">
+                    </div>
+                </div>
+
+                <div class="vial-section">
+                    <img class="vial-icon" src="./img/red-vial.png" alt="red-vial.png">
+                    <img class="vial-icon" src="./img/yellow-vial.png" alt="vial.png">
+                    <img class="vial-icon" src="./img/blue-vial.png" alt="vial.png">
+                    <img class="vial-icon" src="./img/green-vial.png" alt="vial.png">
+                    <img class="vial-icon" src="./img/brown-vial.png" alt="vial.png">
+                    <img class="vial-icon" src="./img/gray-vial.png" alt="vial.png">
+                </div>
+
+                <div class="researches-btns">
+                   <button class="researches-btn --rsrch-show">
+                        <p class="btn-text">Показать все исследования</p>
+                    </button> 
+                   <button class="researches-btn --rsrch-list">
+                        <img class="burger-menu-icon" src="./img/burger-menu-icon.png" alt="logo.ong">
+                    </button>
+                </div>
+            </div>
+
+            <div class="sidebar_research-journal">
+                
+            </div>
         </div>
 
         <div class="main__right">
-
+            <p></p>
         </div>
     </div>
 </body>
