@@ -18,25 +18,25 @@
         <nav>
             <ul class="navbar__list">
                 <li class="link">
-                    <a class="menu-link" href="#">Главная</a>
+                    <button class="menu-link" href="#">Главная</button>
                 </li>
                 <li class="link">
-                    <a class="menu-link" href="#">Обследование и анализы</a>
+                    <button class="menu-link" href="#">Обследование и анализы</button>
                 </li>
                 <li class="link">
-                    <a class="menu-link" href="#">Запись онлайн</a>
+                    <button class="menu-link" href="#">Запись онлайн</button>
                 </li>
             </ul>
 
             <ul class="navbar__list --secondary-list">
                 <li class="link">
                     <img class="nav-icon" src="./img/profile-icon.svg" alt="">
-                    <a class="menu-link" href="#">Личные данные</a>
+                    <button class="menu-link" href="#">Личные данные</button>
                 </li>
 
                 <li class="link">
                     <img class="nav-icon" src="./img/exit-icon.svg" alt="">
-                    <a class="menu-link" href="#">Выход</a>
+                    <button class="menu-link" href="#">Выход</button>
                 </li>
             </ul>
         </nav>
@@ -53,12 +53,12 @@
     </header>
     
     <main>
-        <div class="main__left">
-            <div class="sidebar_research-filter">
-                <div class="sidebar__title-section">
+        <section class="main__left">
+            <div class="sidebar__research-filter">
+                <div class="sidebar__title-section --filter-section">
                     <p class="sidebar__title">Фильтры исследований</p>
                 </div>
-                <div class="sidebar__wrapper">
+                <div class="sidebar__wrapper --filter-wrapper">
                     <div class="sidebar__wrapper --column">
                         <button class="sidebar__option-btn">
                             <img class="option-btn__icon" src="./img/mri-scan-icon.png" alt="mri-scan-icon.png">
@@ -114,12 +114,16 @@
                 </div>
             </div>
 
-            <div class="sidebar_research-journal">
-                
+            <div class="sidebar__research-journal">
+                <div class="sidebar__title-section">
+                    <p class="sidebar__title">Журнал исследований</p>
+                </div>
+                <!-- Контейнер для карточек -->
+                <div id="cardContainer"></div>
             </div>
-        </div>
+        </section>
 
-        <div class="main__right">
+        <section class="main__right">
             <div class="welcome-section">
                 <h1 class="welcome-title">Добро пожаловать<br>в атлас пациента</h1>
                 <p class="welcome-text">Ознакомьтесь с краткой инструкцией<br>и возможностями сервиса "Атлас Пациент".</p>
@@ -153,8 +157,38 @@
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="instruction-section">
+                <h2 class="instruction-title">Инструкция</h2>
+                <div class="instruction__blocks">
+                    <div class="instruction__block">
+                        <p class="instruction-num">01</p>
+                        <div class="instruction__block__info">
+                            <h3 class="instruction__block__title">Навигация по исследованиям</h3>
+                            <p class="instruction__block__text">Для ознакомления с исследованием<br>выберите один из разделов в меню</p>
+                        </div>
+                        <img class="instruction-screen" src="./img/instruction-screen-1.png" alt="">
+                    </div>
+
+                    <div class="instruction__block">
+                        <img class="instruction-screen" src="./img/instruction-screen-2.png" alt="">
+                        <p class="instruction-num">02</p>
+                        <div class="instruction__block__info">
+                            <h3 class="instruction__block__title">Динамика измерений</h3>
+                            <p class="instruction__block__text">Для просмотра динамики<br>исследований нажмите на кнопку</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__text --footer-elem">© 2018 Atlas Patient</p>
+            <button class="footer__btn-up --footer-elem">На верх ↑</button>
+        </div>
+    </footer>
 </body>
     <!-- Подключение скрипта -->
     <script src="./script.js"></script> 
