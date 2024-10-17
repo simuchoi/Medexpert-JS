@@ -50,3 +50,10 @@ cardData.forEach((data, index) => {
     `;
     cardContainer.insertAdjacentHTML('beforeend', cardHTML);
 });
+
+document.querySelector('.footer__btn-up').addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' 
+    });
+});

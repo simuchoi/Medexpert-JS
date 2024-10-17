@@ -1,0 +1,113 @@
+.modal {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px;
+}
+
+.modal-title {
+    margin-bottom: 20px;
+}
+
+.personalDataForm {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: "Roboto", sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    border: 1px #000 solid;
+    outline-width: 0;
+    transition: all 0.3s ease;
+}
+
+input:hover {
+    background-color: #ededed;
+}
+
+input:focus {
+    background-color: #ffffff;
+}
+
+.close-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: #ededed;
+    font-weight: 100;
+}
+
+.close-btn:hover {
+    background-color: #ededed;
+    color: black;
+    background-color: #00000030;
+}
+
+.close-btn:active {
+    background-color: #ededed;
+    color: black;
+}
+
+.close-btn:focus {
+    color: black;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.show-password-icon {
+    height: 20px;
+}
+
+.sumbit-btn {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #ededed;
+}
+
+.sumbit-btn:active {
+    background-color: #ededed;
+}

@@ -4,7 +4,11 @@
     margin: 0px;
 }
 
-p, a, h1, h2, h3 {
+p,
+a,
+h1,
+h2,
+h3 {
     font-family: "Roboto", sans-serif;
     color: #000;
 }
@@ -33,7 +37,7 @@ html {
     display: flex;
     justify-content: center;
 }
-  
+
 body {
     display: flex;
     flex-direction: column;
@@ -66,7 +70,7 @@ nav {
 }
 
 .--secondary-list {
-   gap: 30px; 
+    gap: 30px;
 }
 
 .link {
@@ -259,11 +263,11 @@ main {
 .welcome-section {
     display: flex;
     flex-direction: column;
-    height: 320px; 
+    height: 320px;
     background-image: url('./img/welcome-background.png');
     background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     margin-right: 40px;
     margin-bottom: 35px;
     box-shadow: #00000025 20px;
@@ -294,17 +298,17 @@ main {
 .welcome-info__grid {
     display: grid;
     grid-template-columns: repeat(2, 0.45fr);
-    gap: 44px; 
+    gap: 44px;
     margin-bottom: 40px;
 }
 
 .welcome-info__cell {
     display: grid;
-    grid-template-columns: 150px 1fr; 
-    align-items: center; 
-    gap: 30px; 
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    gap: 30px;
 }
- 
+
 .cell-icon-wrraper {
     display: flex;
     justify-content: center;
@@ -347,8 +351,7 @@ main {
     display: flex;
 }
 
-.instruction__block {
-}
+.instruction__block {}
 
 .instruction__block {
     display: flex;
@@ -411,7 +414,8 @@ main {
     width: 250px;
 }
 
-.card__date, .card__time {
+.card__date,
+.card__time {
     font-size: 14px;
     color: #787878;
 }
