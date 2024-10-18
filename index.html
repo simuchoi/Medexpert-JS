@@ -22,25 +22,25 @@
         <nav>
             <ul class="navbar__list">
                 <li class="link">
-                    <button class="menu-link" href="#">Главная</button>
+                    <button class="menu-link"><span>Главная</span></button>
                 </li>
                 <li class="link">
-                    <button class="menu-link" href="#">Обследование и анализы</button>
+                    <button class="menu-link"><span>Обследование и анализы</span></button>
                 </li>
                 <li class="link">
-                    <button class="menu-link" href="#">Запись онлайн</button>
+                    <button class="menu-link"><span>Запись онлайн</span></button>
                 </li>
             </ul>
 
             <ul class="navbar__list --secondary-list">
                 <li class="link">
                     <img class="nav-icon" src="./img/profile-icon.svg" alt="">
-                    <button class="menu-link" id="openModalBtn" href="#">Личные данные</button>
+                    <button class="menu-link" id="openModalBtn"><span>Личные данные</span></button>
                 </li>
 
                 <li class="link">
                     <img class="nav-icon" src="./img/exit-icon.svg" alt="">
-                    <button class="menu-link" href="#">Выход</button>
+                    <button class="menu-link"><span>Выход</span></button>
                 </li>
             </ul>
         </nav>
@@ -94,7 +94,7 @@
     </div>
     
     <main>
-        <section class="main__left">
+        <div class="main__left">
             <div class="sidebar__research-filter">
                 <div class="sidebar__title-section --filter-section">
                     <p class="sidebar__title">Фильтры исследований</p>
@@ -103,31 +103,31 @@
                     <div class="sidebar__wrapper --column">
                         <button class="sidebar__option-btn">
                             <img class="option-btn__icon" src="./img/mri-scan-icon.png" alt="mri-scan-icon.png">
-                            <p class="option-btn__name">МРТ</p>
+                            <span class="option-btn__name">МРТ</span>
                         </button>
                         <button class="sidebar__option-btn">
                             <img class="option-btn__icon" src="./img/ct-scan-icon.png" alt="ct-scan-icon.png">
-                            <p class="option-btn__name">КТ</p>
+                            <span class="option-btn__name">КТ</span>
                         </button>
                         <button class="sidebar__option-btn">
                             <img class="option-btn__icon" src="./img/xray-scan-icon.png" alt="xray-scan-icon.png">
-                            <p class="option-btn__name">Рентген</p>
+                            <span class="option-btn__name">Рентген</span>
                         </button>
                         <button class="sidebar__option-btn">
                             <img class="option-btn__icon" src="./img/ultrasound-icon.png" alt="ultrasound-icon.png">
-                            <p class="option-btn__name">УЗИ</p>
+                            <span class="option-btn__name">УЗИ</span>
                         </button>
                         <button class="sidebar__option-btn">
                             <img class="option-btn__icon" src="./img/heart-pulse-icon.png" alt="heart-pulse-icon.png">
-                            <p class="option-btn__name">ФД</p>
+                            <span class="option-btn__name">ФД</span>
                         </button>
                         <button class="sidebar__option-btn">
                             <img class="option-btn__icon" src="./img/stethoscope-icon.png" alt="stethoscope-icon.png">
-                            <p class="option-btn__name">Конс</p>
+                            <span class="option-btn__name">Конс</span>
                         </button>
                         <button class="sidebar__option-btn">
                             <img class="option-btn__icon" src="./img/laboratory-icon.png" alt="laboratory-icon.png">
-                            <p class="option-btn__name">Анализы</p>
+                            <span class="option-btn__name">Анализы</span>
                         </button>
                     </div>
 
@@ -147,7 +147,7 @@
 
                 <div class="researches-btns">
                    <button class="researches-btn --rsrch-show">
-                        <p class="btn-text">Показать все исследования</p>
+                        <span class="btn-text">Показать все исследования</span>
                     </button> 
                    <button class="researches-btn --rsrch-list">
                         <img class="burger-menu-icon" src="./img/burger-menu-icon.png" alt="logo.ong">
@@ -162,7 +162,7 @@
                 <!-- Контейнер для карточек -->
                 <div id="cardContainer"></div>
             </div>
-        </section>
+        </div>
 
         <section class="main__right">
             <div class="welcome-section">
@@ -230,9 +230,10 @@
             <button class="footer__btn-up --footer-elem">На верх ↑</button>
         </div>
     </footer>
-</body>
+
     <!-- Подключение скриптов -->
     <script src="./script.js"></script>
     <script src="./modal.js"></script> 
     <script src="./masknumber.js"></script>
+</body>
 </html>
