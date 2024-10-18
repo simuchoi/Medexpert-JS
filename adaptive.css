@@ -1,0 +1,263 @@
+@media (max-width: 480px) {
+    body {
+        width: 480px;
+    }
+
+    header {
+        width: 480px;
+        margin-bottom: 0;
+        height: unset;
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    .navbar__list {
+        margin: 0;
+        gap: 0;
+        height: unset;
+    }
+
+    .--secondary-list {
+        gap: 0;
+    }
+
+    .nav-icon {
+        display: none;
+    }
+
+    .menu-link {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        max-width: 130px;
+        height: 80px;
+        border: 1px solid #555;
+    }
+
+    .nav-service {
+        height: 80px;
+    }
+
+    .service-logo {
+        height: 40px;
+    }
+
+    .service-name {
+        font-size: 18px;
+    }
+
+    .service-wrapper {
+        margin-left: 20px;
+    }
+
+    .service-profile-link {
+        margin-right: 20px;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .main__left,
+    .main__right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sidebar__research-filter,
+    .sidebar__research-journal {
+        margin: 0;
+    }
+
+    .sidebar__research-journal {
+        margin-bottom: 35px;
+    }
+
+    .--filter-wrapper {
+        margin-bottom: 35px;
+    }
+
+    .sidebar__title-section {
+        height: 80px;
+    }
+
+    .sidebar__option-btn {
+        width: 100%;
+        margin-left: 60px;
+    }
+
+    .option-btn__icon {
+        height: 40px;
+    }
+
+    .--column {
+        gap: 20px;
+    }
+
+    .option-btn__name {
+        font-size: 20px;
+    }
+
+    .human-img {
+        height: 400px;
+        width: unset;
+        margin: auto 60px auto 0;
+    }
+
+    .sidebar__title {
+        font-size: 24px;
+    }
+
+    .vial-section {
+        justify-content: center;
+        gap: 21px;
+        margin-left: 0;
+    }
+
+    .vial-icon {
+        height: 40px;
+    }
+
+    .researches-btn {
+        padding: 16px;
+        font-size: 20px;
+    }
+
+    .--rsrch-show {
+        width: 320px;
+    }
+
+    .btn-text {
+        font-size: unset;
+    }
+
+    .welcome-section {
+        height: auto;
+        padding: 20px;
+        margin-right: 0;
+        box-shadow: 0 0 10px #00000030;
+    }
+
+    .welcome-title {
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 20px 0 20px 20px;
+    }
+
+    .welcome-info__title {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    .welcome-text {
+        font-size: 18px;
+        line-height: 1.5rem;
+        margin: 0 0 20px 20px;
+    }
+
+    .welcome-info__grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .welcome-info__cell {
+        gap: 0;
+        margin-left: 30px;
+        grid-template-columns: 130px 1fr;
+    }
+
+    .cell-icon-wrraper {
+        height: 100px;
+        width: 100px;
+    }
+
+    .cell__text {
+        font-size: 16px;
+        width: auto;
+    }
+
+    .instruction-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .instruction-title,
+    .instruction-num {
+        margin-left: 30px;
+    }
+
+    .instruction-num {
+        font-size: 100px;
+    }
+
+    .instruction__blocks {
+        margin-bottom: 30px;
+    }
+
+    .instruction__block {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    .instruction__block__text {
+        width: unset;
+        font-size: 16px;
+    }
+
+    .instruction__block:first-of-type .instruction-num {
+        position: absolute;
+        top: 60px;
+    }
+
+    .instruction__block:nth-of-type(2) .instruction-num {
+        position: absolute;
+        top: 450px;
+    }
+
+    .instruction-screen {
+        box-shadow: 0 0 10px #00000030;
+        width: 100%;
+    }
+
+    .instruction__block:first-of-type .instruction-screen {
+        margin-left: 0;
+        margin-top: 180px;
+        margin-bottom: 130px;
+    }
+
+    .instruction__block:nth-of-type(2) .instruction-screen {
+        margin-right: 0;
+    }
+
+    .instruction__block:first-of-type .instruction__block__info {
+        position: absolute;
+        left: 160px;
+        top: 75px;
+    }
+
+    .instruction__block:nth-of-type(2) .instruction__block__info {
+        position: absolute;
+        left: 160px;
+        top: 465px;
+    }
+
+    .footer,
+    .footer__content {
+        width: 100%;
+    }
+
+    .footer__content {
+        text-align: center;
+    }
+
+    .footer__text,
+    .footer__btn-up {
+        margin-bottom: 10px;
+    }
+}
